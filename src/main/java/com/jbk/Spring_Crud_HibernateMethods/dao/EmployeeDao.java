@@ -50,6 +50,8 @@ public class EmployeeDao {
 		
 		Employee e = ss.get(Employee.class, eid);
 		
+		ss.remove(e);
+		
 		return "Data Deleted...";
 
 	}
