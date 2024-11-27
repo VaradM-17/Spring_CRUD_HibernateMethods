@@ -82,4 +82,13 @@ public class EmployeeDao {
 		return list;
 	}
 
+	public Employee displaysingleData(int eid) {
+		Session ss = factory.openSession();
+		Employee emp = ss.get(Employee.class, eid);
+
+		ss.close();
+
+		return emp;
+	}
+
 }
