@@ -10,7 +10,6 @@ import com.jbk.Spring_Crud_HibernateMethods.entity.Employee;
 
 @Service
 public class EmployeeService {
-
 	@Autowired
 	EmployeeDao employeedao;
 

@@ -87,8 +87,7 @@ public class EmployeeDao {
 		Employee emp = ss.get(Employee.class, eid);
 
 		ss.close();
-
+		
 		return emp;
 	}
-
 }
